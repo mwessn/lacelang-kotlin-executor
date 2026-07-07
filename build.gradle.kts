@@ -5,14 +5,14 @@ plugins {
 }
 
 group = "dev.lacelang"
-version = "0.1.1"
+version = "0.1.2"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("dev.lacelang:lacelang-kt-validator:0.1.1")
+    implementation("dev.lacelang:lacelang-kt-validator:0.1.2")
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.okhttp3:okhttp-tls:4.12.0")
