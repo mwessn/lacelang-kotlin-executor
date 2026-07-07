@@ -326,7 +326,7 @@ private fun runCall(call: Map<String, Any?>, idx: Int, env: ExecutionEnv, writeb
     )
 
     env.registry.fireHook("call", mapOf(
-        "call" to mapOf("index" to idx, "outcome" to callOutcome, "response" to responseRec, "assertions" to assertions, "config" to resolvedCfg),
+        "call" to mapOf("index" to idx, "outcome" to callOutcome, "response" to responseRec, "assertions" to assertions, "config" to resolvedCfg, "error" to error),
         "prev" to env.prev,
     ))
     return record
